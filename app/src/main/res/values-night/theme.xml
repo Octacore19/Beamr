@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <item name="android:colorBackground">@color/gray900</item>
+        <item name="colorOnBackground">@color/secondaryColor</item>
+
+        <item name="colorSurface">@color/gray900</item>
+        <item name="colorOnSurface">@color/secondaryColor</item>
+
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearanceSmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearanceMediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearanceLargeComponent</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearanceHeadline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearanceHeadline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearanceHeadline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearanceHeadline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearanceHeadline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearanceHeadline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearanceSubtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearanceSubtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearanceBody1</item>
+        <item name="textAppearanceBody2">@style/TextAppearanceBody2</item>
+        <item name="textAppearanceCaption">@style/TextAppearanceCaption</item>
+        <item name="textAppearanceButton">@style/TextAppearanceButton</item>
+        <item name="textAppearanceOverline">@style/TextAppearanceOverline</item>
+
+        <item name="textInputStyle">@style/AppTheme.TextInputLayout</item>
+        <item name="materialButtonStyle">@style/AppTheme.Button</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
