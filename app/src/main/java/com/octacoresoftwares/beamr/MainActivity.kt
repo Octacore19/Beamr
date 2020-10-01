@@ -1,4 +1,4 @@
-package com.octacoresoftwares.shakabeam
+package com.octacoresoftwares.beamr
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

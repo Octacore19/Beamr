@@ -1,4 +1,4 @@
-package com.octacoresoftwares.shakabeam
+package com.octacoresoftwares.beamr
 
 import org.junit.Test
 
