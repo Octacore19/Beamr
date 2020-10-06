@@ -1,6 +1,33 @@
 <resources>
     <string name="app_name">Beamr</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="switch_icon">Switch icon</string>
+    <string name="service_switch_key">service_key</string>
+    <string name="service_preference_title">START SERVICE</string>
+    <string name="service_preference_summary">Turn service on or off</string>
+    <string name="sensitivity_default_value">Medium</string>
+    <string name="sensitivity_title">SENSITIVITY</string>
+    <string name="sensitivity_key">sensitivity_key</string>
+    <string name="theme_default_value">Light</string>
+    <string name="theme_key">theme_key</string>
+    <string name="theme_title">THEME</string>
+    <string name="permission_key">permission_key</string>
+    <string name="permission_summary_short">Click to enable camera</string>
+    <string name="permission_summary_long">The camera is needed to be able to use the flashlight feature. Kindly enable it</string>
+    <string name="permission_title">ENABLE CAMERA</string>
+
+    <array name="sensitivity_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </array>
+
+    <array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </array>
+
+    <array name="theme_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </array>
 </resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="@string/service_switch_key"
+        android:summary="@string/service_preference_summary"
+        android:title="@string/service_preference_title"
+        app:icon="@drawable/ic_power" />
+
+    <ListPreference
+        android:defaultValue="@string/sensitivity_default_value"
+        android:dependency="@string/service_switch_key"
+        android:entries="@array/sensitivity_entries"
+        android:entryValues="@array/sensitivity_entries"
+        android:key="@string/sensitivity_key"
+        android:title="@string/sensitivity_title"
+        app:dialogIcon="@drawable/ic_shake"
+        app:icon="@drawable/ic_shake" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="@string/theme_key"
+        android:summary="Turn Dark mode on"
+        android:title="Dark Mode"
+        app:icon="@drawable/ic_moon" />
+</PreferenceScreen>

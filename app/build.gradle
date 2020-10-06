@@ -38,6 +38,9 @@ dependencies {
     //Google MDC
     implementation 'com.google.android.material:material:1.2.1'
 
+    //Androidx Preference library
+    implementation 'androidx.preference:preference-ktx:1.1.1'
+
     //Navigation Architecture
     def navigation_version = "2.3.0"
     implementation "androidx.navigation:navigation-fragment:$navigation_version"
@@ -45,4 +48,7 @@ dependencies {
     implementation "androidx.navigation:navigation-ui:$navigation_version"
     implementation "androidx.navigation:navigation-ui-ktx:$navigation_version"
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$navigation_version"
+
+    //Square Seismic library for handling gyroscope
+    implementation 'com.squareup:seismic:1.0.2'
 }

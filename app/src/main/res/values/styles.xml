@@ -14,7 +14,7 @@
     </style>
 
     <style name="AppTheme.Toolbar" parent="Widget.MaterialComponents.Toolbar.Surface">
-        <item name="titleTextAppearance">@style/TextAppearanceHeadline6.ToolbarTextAppearance</item>
+        <item name="titleTextAppearance">@style/TextAppearanceHeadline6</item>
     </style>
 
     <style name="AppTheme.TextViewHeadline">
